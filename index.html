@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Online Recruitment Solution</title>
+  <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#homepage">Home</a></li>
+        <li><a href="#login">Login</a></li>
+        <li><a href="#register">Register</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="homepage">
+    <div class="container">
+      <h1>Efficient Hiring Made Easy</h1>
+      <p>An online recruitment solution designed to streamline the hiring process for HR professionals and hiring managers.</p>
+      <ul class="features">
+        <li>Feature 1: <b>Job Posting</b>: Allow HR professionals and hiring managers to easily create and publish job postings on various job boards and platforms. Provide a user-friendly interface for entering job details, requirements, and qualifications.</li>
+        <br>
+        <li>Feature 2: <b>Resume Management</b>: Offer a centralized repository for storing and organizing resumes. Provide tools for parsing, indexing, and categorizing resumes, making it easier to search and retrieve relevant candidate information.</li>
+        <br>
+        <li>Feature 3: <b>Interview Scheduling</b>: Simplify the interview scheduling process by providing automated scheduling tools. Integrate with popular calendar systems to allow HR professionals and hiring managers to send interview invitations and coordinate interview times efficiently.</li>
+        
+      </ul>
+    </div>
+  </section>
+
+  <section id="login">
+    <div class="container">
+      <h2>Login</h2>
+      <form action="/login" method="POST">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+
+        <input type="submit" value="Login">
+      </form>
+    </div>
+  </section>
+
+  <section id="register">
+    <div class="container">
+      <h2>Register</h2>
+      <form action="/register" method="POST">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+        <label for="contact">Contact Number:</label>
+        <input type="tel" id="contact" name="contact" placeholder="Enter your contact number" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Choose a password" required>
+
+        <input type="submit" value="Register">
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Your Company. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
